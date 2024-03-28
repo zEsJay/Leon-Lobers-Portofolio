@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt Formular</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="index.html">
+</head>
+<nav class="navbar">
+  <div class="logo"><a href="About.Html">Leon Lobers</a></div>
+  <ul class="nav-links">
+      <li class="nav-link"><a href="index.html">Home</a></li>
+      <li class="nav-link"><a href="Lebenslauf.html">Lebenslauf</a></li>
+      <li class="nav-link"><a href="About.Html">About</a></li>
+  </ul>
+</nav>
+<body>
+  <form action="https://formspree.io/f/meqyrepy" method="post">
+  <h1>Kontakt Formular</h1>
+  <input type="text" name="Vor" placeholder="Vorname" autocomplete="off" required>
+  <input type="text" name="Nach" placeholder="Nachname" autocomplete="off" required>
+  <input type="text" name="Email Adresse" placeholder="Email" autocomplete="off" required>
+  <textarea rows="5" cols="60" name="Nachricht" placeholder="Nachricht Eingeben" autocomplete="off" required></textarea>
+  <button type="submit">Nachricht Senden</button>
+</form>
+
+</body>
+</html>
